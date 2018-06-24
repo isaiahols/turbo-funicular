@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,900');
+
+.App {
+  /* Here I'm setting the width and height of the outer container "App" to be the width and height of the screen */
+  width: 100vw;
+  height: 100vh;
+  /* Using display: flex here */
+  display: flex;
+  /* Align and justify items in the center of the screen */
+  align-items: center;
+  justify-content: center;
+
+  background-color: #222;
+}
+
+.middleBox {
+  min-width: 500px;
+  min-height: 500px;
+  width: 50vw;
+  height: 50vh;
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  justify-content: space-around;
+}
+
+.centerTitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 10em;
+}
+
+.titleName {
+  border-bottom: white 1px solid;
+  padding-bottom: 5px;
+  color: grey;
+  margin-bottom: 25px;
+}
+
+.incDecButton {
+  background-color: transparent;
+  font-size: 2em;
+  color: grey;
+  border: none;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+#count {
+  margin: 15px 50px;
+  font-weight: 900;
+  font-size: 6em;
+}
